@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inserisci Dati Paziente</title>
+</head>
+<body>
+    <h2>Inserisci i dati del paziente</h2>
+    <form method="POST" action="/patient-data">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="age">Età:</label>
+        <input type="number" id="age" name="age" required><br>
+        <label for="history">Storia Medica:</label>
+        <textarea id="history" name="history"></textarea><br>
+        <button type="submit">Invia</button>
+    </form>
+</body>
+</html>

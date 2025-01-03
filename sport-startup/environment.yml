@@ -1,0 +1,12 @@
+name: sport_portal
+dependencies:
+  - python=3.10
+  - pip:
+      - django
+      - djangorestframework
+      - psycopg2-binary
+      - bootstrap4
+      - pillow
+      - pandas
+      - numpy
+      - matplotlib
